@@ -1,0 +1,122 @@
+
+header {
+    background-color: rgba(66, 66, 66, 0.751);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.845);
+    display: block;
+    margin: 0% 0%;
+}
+
+body{
+    background-image:url('/img/libraryImage.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: center fixed;
+    background-size: cover;
+    margin:0;
+  }
+h1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h2 {
+    background-color:black;
+    color: tomato;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+nav {
+    margin-top:0%;
+    width:100%; 
+    background-color:rgb(69, 185, 206);
+    border:1px solid white;
+    opacity:90%;
+    padding:0;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    margin-top: 0%;
+    overflow: hidden;
+    margin-bottom: 0%;
+    padding:0%;
+  }
+  li {
+    float:left;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color:red;
+      color:white;
+      font-weight:bold;
+      border-radius: 20%;
+  }
+  
+  nav ul select  {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    /* background-color:white; */
+    border:1px solid rgb(101, 91, 197);
+    margin-top: 8%;
+    font-weight:bolder;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .box{
+    display: flex;
+    background-color:rgba(66, 66, 66, 0.662);
+    height: 440px;
+    width: 440px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+
+  }
+
+  .td{
+    padding: 10px 80px;
+    border: 2px solid rgba(255, 255, 255, 0.849);
+    text-align: center;
+    
+  }
+
+  .td :hover{
+    background-color: orange;
+  }
+
+  .td a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    text-align: center;
+  }
+  
+  #welcome{
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+
+  .box tr {
+    margin-bottom: 10px;
+  }
+
+  
+
+ 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin SignUp</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/user.css">
+</head>
+
+<body>
+    <header>
+
+        <h1> <img src="/img/logo.png" alt="Logo" height="40px" width="55px"> Digital Library</h1>
+    </header>
+    <h2> <i>
+            <marquee direction="right">Welcome to digital library </marquee>
+        </i>
+    </h2>
+    <p style="color: red; text-align: center; font-weight: bold; font-size: x-large;" class="error-message" id="error"></p>
+    <div class="container1">
+        <form class="form" id="createAccount" name="form2" >
+            <h1 class="form-title" style="text-align: center; color: white; padding: 6px;">Sign Up</h1>
+            <input type="text" class="frm1" name="uid" id="uid" autofocus placeholder="Reg No" required>
+            <input type="text" class="frm1" name="fname" id="fname" autofocus placeholder="First Name" required>
+            <input type="text" class="frm1" name="lname" id="lname" autofocus placeholder="Last Name" required>
+            <select class="frm1" id="gender">
+                <option class="choose">Male</option>
+                <option class="choose">Female</option>
+                <option class="choose">Other</option>
+            </select>
+            <input type="date" class="frm1" id="dob" required>
+            <input type="text" class="frm1" name="mobilenumber" id="mbnumber" autofocus placeholder="Contact Number"
+                required>
+            <input type="email" class="frm1" name="email" id="email" autofocus placeholder="Email Address" required>
+            <input type="password" class="frm1" name="password" id="password" autofocus placeholder="Password" required>
+            <input type="password" class="frm1 " name="confirm_password" id="conpassword" autofocus
+                placeholder="Confirm Password" required><br><br>
+            <p id="e" style="color:blue; text-align: center;"> </p>
+            <input type="submit" class="frm-btn" value="Sign Up">
+            <p class="form-text" style="text-align: center; font-size: large; color: white; " >Already have an Account?
+                <a class="form-link" href="userLogin.html" id="linkLogin" style="color: white"> Sign In</a>
+            </p>
+        </form>
+
+    </div>
+    <script src="/javascript/userSignup.js"></script>
+
+</body>
+
+</html>

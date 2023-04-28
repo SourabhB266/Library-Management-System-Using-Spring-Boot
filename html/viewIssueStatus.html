@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Issue Status</title>
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body onload="displaying()" >
+    <header>
+        <h1> <img src="/img/logo.png" alt="Logo" height="40px" width="55px"> Digital Library</h1>
+    </header>
+    <h2> <i>
+            <marquee direction="right">Welcome to digital library </marquee>
+        </i>
+    </h2>
+    <p id="e" style="color: White; text-align: center; font-size: x-large; " class="msg" ></p>
+    <div class="homeButton"><a href="/html/userHome.html">Back</a></div>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Book ID</th>
+                <th>Book Title</th>
+                <th>Issue Status</th>
+                <th>Issued Date</th>
+                <th>Actual Return Date</th>
+                <th>Return</th>
+                <th>Fine</th>
+            </tr>
+        </thead>
+        <tbody id="disp-status">
+
+        </tbody>
+
+        <script src="/javascript/viewIssueStatus.js"></script>
+    </table>
+
+</body>
+
+</html>

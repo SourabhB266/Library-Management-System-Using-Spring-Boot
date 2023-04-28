@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Books</title>
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1> <img src="/img/logo.png" alt="Logo" height="40px" width="55px"> Digital Library</h1>
+    </header>
+    <h2> <i>
+            <marquee direction="right">Welcome to digital library </marquee>
+        </i>
+    </h2>
+    <div class="homeButton"><a href="/html/adminHome.html">Back</a></div>
+    <div class="column">
+        <div class="container">
+            <span id="msg" style="color: darkorange; font-size: large; font-weight: bold; margin: auto; text-align: center;"></span>
+            <form id="form1 " name="form1">
+                <h1 class="form-title">Add Books Here</h1>
+                <select name="Category" id="category" class="form-input">
+                    <option>-Select-</option>
+                    <option value="news">Magazines</option>
+                    <option value="HigherEducation">HigherEducation</option>
+                    <option value="ProfessionalCourses">ProfessionalCourses</option>
+                    <option value="Competitions">Competitions</option>
+                    <option value="Journals">Journals</option>
+                    <option value="School">School</option>
+                    <option value="Comics">Comics</option>
+                    <option value="General">General</option>
+                    <option value="Story Books">Story Books</option>
+                </select>
+                <input type="text" id="bookid" class="form-input" name="bookid" autofocus placeholder="Book-ID"
+                    required>
+                <input type="text" id="booktitle" class="form-input" name="booktitle" autofocus placeholder="Book Title"
+                    required>
+                <input type="text" id="author" class="form-input" name="author" autofocus placeholder="Author" required>
+                <input type="text" id="edition" class="form-input" name="edition" autofocus
+                    placeholder="Edition ex:1 or 2" required>
+                <input type="text" id="no_of_books" class="form-input" name="no_of_books" autofocus
+                    placeholder="No.of books available" required>
+                <input type="submit" class="form-button" value="Add">
+
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="/javascript/addBook.js"></script>
+</body>
+
+</html>

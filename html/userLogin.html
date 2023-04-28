@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <h1> <img src="/img/logo.png" alt="Logo" height="40px" width="55px"> Digital Library</h1>
+    </header>
+    <h2> <i>
+            <marquee direction="right">Welcome to digital library </marquee>
+        </i>
+    </h2>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <form class="form1 " name="form1" action="/submit">
+                    <h1 class="form-title">User Login</h1>
+                    <p id="e" style="color: White; text-align: center;" class="error password-error"></p>
+                    <input type="text" id="uid" class="form-input" name="uid" autofocus placeholder="User Id" required>
+                    <input type="password" id="password" class="form-input" name="password1" autofocus
+                        placeholder="Password" required>
+                    <input type="submit" class="form-button" value="Log In">
+                    <p class="form-text">Don't have an Account?
+                        <a class="form-link" href="userSignup.html" id="linkLogin"> Sign Up</a>
+                    </p>
+                    <p class="success" style="color: white;" ></p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="/javascript/userLogin.js"></script>
+</body>
+
+</html>
