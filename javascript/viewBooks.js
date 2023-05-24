@@ -39,7 +39,6 @@ let edition = document.querySelector("#edition");
 let no_of_books = document.querySelector("#no_of_books");
 
 async function upd() {
-
     let books = {
         bookId : bookId.value,
         catagory: catagory.value,

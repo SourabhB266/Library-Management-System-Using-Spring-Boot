@@ -30,7 +30,6 @@ h1 {
 
 }
 
-
 .form:first-child {
     margin-bottom: 0;
 
@@ -209,4 +208,4 @@ td {
     left: 40px;
     position: absolute;
     font-size: x-large;
-  }
+}

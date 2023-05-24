@@ -19,9 +19,7 @@ async function displaying() {
 }
 
 let dt = new Date().toISOString().substring(0, 10);
-// let dt = dt1.toDateString();
 let rt = addWeeks(2);
-// let rt = rt1.toDateString();
 let issuestatus = false;
 let returnbook;
 

@@ -173,7 +173,6 @@ async function change() {
         setTimeout(() => document.querySelector(".msg").innerHTML = "", 2000);
         location.reload();
     }
-
 }
 
 
